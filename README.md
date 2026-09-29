@@ -1,32 +1,32 @@
-# Print records app
+# Print records extension
 
-This example app shows artists and their artworks, grouped by collection.
+This example extension shows artists and their artworks, grouped by collection.
 
 The code shows how to create a printable record layout. It features:
 
--   Many records shown on the same page.
+- Many records shown on the same page.
 
--   Records printed alongside their linked records.
+- Records printed alongside their linked records.
 
--   Content areas that resize dynamically to the amount of content in a field.
+- Content areas that resize dynamically to the amount of content in a field.
 
--   A button to print the layout.
+- A button to print the layout.
 
--   The use of `CellRenderer` to display rich base content with very little code.
+- The use of `CellRenderer` to display rich base content with very little code.
 
--   Styling that changes, based on the base content.
+- Styling that changes, based on the base content.
 
-## How to run this app
+## How to run this extension
 
 1. Create a new base using the
    [Art Gallery Management template](https://airtable.com/templates/creative/expAZgezgpfCF8wVH/art-gallery-management).
 
-2. Create a new app in your new base (see
-   [Create a new app](https://airtable.com/developers/blocks/guides/hello-world-tutorial#create-a-new-app)),
+2. Create a new extension in your new base (see
+   [Create a new extension](https://airtable.com/developers/blocks/guides/hello-world-tutorial#create-a-new-app)),
    selecting "Print records" as your template.
 
-3. From the root of your new app, run `block run`.
+3. From the root of your new extension, run `block run`.
 
-## See the app running
+## See the extension running
 
 ![Seeing a layout of artists and their artworks grouped by collection, printing the layout](media/block.gif)

@@ -73,7 +73,7 @@ function Report({view}) {
 
     return (
         <div>
-            {records.map(record => {
+            {records.map((record) => {
                 return <Record key={record.id} record={record} />;
             })}
         </div>
@@ -125,7 +125,7 @@ function Record({record}) {
                     </tr>
                 </thead>
                 <tbody>
-                    {linkedRecords.map(linkedRecord => {
+                    {linkedRecords.map((linkedRecord) => {
                         // Render a check or an x depending on if the artist is on display or not.
                         const isArtistOnDisplay = linkedRecord.getCellValue('On Display?');
                         return (
